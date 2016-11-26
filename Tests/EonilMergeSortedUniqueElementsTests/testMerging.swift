@@ -24,7 +24,7 @@ class TestMerging: XCTestCase {
         _ = {
             let a = [1,2,3]
             let b = [2,3,4]
-            let ms = makeMergeMutations(source: a, addition: b, decideUpdate: { _ in false })
+            let ms = makeMergeMutations(source: a, addition: b, shouldUpdateSource: { _ in false })
             XCTAssert(ms.count == 1)
             XCTAssert(ms[0] == a.makeInsert(at: 3, value: 4))
         }()

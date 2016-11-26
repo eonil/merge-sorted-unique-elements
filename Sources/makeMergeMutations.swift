@@ -6,6 +6,25 @@
 //  Copyright © 2016 Eonil. All rights reserved.
 //
 
+public func makeMergeMutations<C>(
+    source: C,
+    addition: C,
+    shouldUpdateSource: (_ index: C.Index) -> (Bool) = { _ in true })
+    ->
+    [ArrayMutation<C.Iterator.Element>]
+    where
+    C: RandomAccessCollection,
+    C.Iterator.Element: Comparable,
+    C.SubSequence.Iterator.Element == C.Iterator.Element,
+    C.Index == Int,
+    C.IndexDistance == Int
+{
+    return makeMergeMutations(source: source,
+                              addition: addition,
+                              replaceSourceValues: { r in Array(source[r]) },
+                              replaceAdditionValues: { r in Array(addition[r]) },
+                              shouldUpdateSource: shouldUpdateSource)
+}
 ///
 /// Produces `insert/update` mutations to build a sorted merged array.
 ///
