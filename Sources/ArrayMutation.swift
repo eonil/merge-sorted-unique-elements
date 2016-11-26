@@ -43,6 +43,11 @@ public extension ArrayMutation {
             return .delete(range, Array(zip(range, elements).map(f)))
         }
     }
+    public func eonil_map<U>(_ f: (T) -> (U)) -> ArrayMutation<U> {
+        return eonil_map({ (_: Array.Index, v: T) -> (U) in
+            return f(v)
+        })
+    }
 }
 
 ///
