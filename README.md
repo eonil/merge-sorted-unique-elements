@@ -1,4 +1,4 @@
-EonilMErgeSortedUniqueElements
+EonilMergeSortedUniqueElements
 ==============================
 Hoon H.
 
