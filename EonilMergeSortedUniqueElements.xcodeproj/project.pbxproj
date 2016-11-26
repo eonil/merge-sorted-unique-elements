@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F092C11DE96ACA00DFA108 /* makeLastDroppingMutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BB1DE96ACA00DFA108 /* makeLastDroppingMutations.swift */; };
+		45F092C21DE96ACA00DFA108 /* makeMergeMutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BC1DE96ACA00DFA108 /* makeMergeMutations.swift */; };
+		45F092C31DE96ACA00DFA108 /* ArrayMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BD1DE96ACA00DFA108 /* ArrayMutation.swift */; };
+		45F092C41DE96ACA00DFA108 /* IteratorProtocol+eonil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BE1DE96ACA00DFA108 /* IteratorProtocol+eonil.swift */; };
+		45F092C51DE96ACA00DFA108 /* assertElementUniqueness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BF1DE96ACA00DFA108 /* assertElementUniqueness.swift */; };
+		45F092C61DE96ACA00DFA108 /* assertSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092C01DE96ACA00DFA108 /* assertSorted.swift */; };
+		45F092E01DE96D0200DFA108 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092C71DE96ADA00DFA108 /* TestError.swift */; };
+		45F092E11DE96D0200DFA108 /* TestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092CC1DE96ADA00DFA108 /* TestUtility.swift */; };
+		45F092E21DE96D0200DFA108 /* TestMerging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* TestMerging.swift */; };
+		45F092E31DE96D0200DFA108 /* TestTruncating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092D91DE96C5400DFA108 /* TestTruncating.swift */; };
+		45F092E41DE96D0200DFA108 /* testLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092CB1DE96ADA00DFA108 /* testLog.swift */; };
+		OBJ_30 /* EonilMergeSortedUniqueElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* EonilMergeSortedUniqueElements.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F092BA1DE96A9000DFA108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_16;
+			remoteInfo = EonilMergeSortedUniqueElements;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45F092BB1DE96ACA00DFA108 /* makeLastDroppingMutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeLastDroppingMutations.swift; sourceTree = "<group>"; };
+		45F092BC1DE96ACA00DFA108 /* makeMergeMutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeMergeMutations.swift; sourceTree = "<group>"; };
+		45F092BD1DE96ACA00DFA108 /* ArrayMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMutation.swift; sourceTree = "<group>"; };
+		45F092BE1DE96ACA00DFA108 /* IteratorProtocol+eonil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IteratorProtocol+eonil.swift"; sourceTree = "<group>"; };
+		45F092BF1DE96ACA00DFA108 /* assertElementUniqueness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assertElementUniqueness.swift; sourceTree = "<group>"; };
+		45F092C01DE96ACA00DFA108 /* assertSorted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assertSorted.swift; sourceTree = "<group>"; };
+		45F092C71DE96ADA00DFA108 /* TestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
+		45F092CB1DE96ADA00DFA108 /* testLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testLog.swift; sourceTree = "<group>"; };
+		45F092CC1DE96ADA00DFA108 /* TestUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtility.swift; sourceTree = "<group>"; };
+		45F092D91DE96C5400DFA108 /* TestTruncating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTruncating.swift; sourceTree = "<group>"; };
+		45F092E51DE96D9E00DFA108 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		45F092E61DE96D9E00DFA108 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_12 /* TestMerging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMerging.swift; sourceTree = "<group>"; };
+		OBJ_14 /* EonilMergeSortedUniqueElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EonilMergeSortedUniqueElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_15 /* EonilMergeSortedUniqueElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = EonilMergeSortedUniqueElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_30 /* EonilMergeSortedUniqueElements.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* EonilMergeSortedUniqueElementsTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* EonilMergeSortedUniqueElementsTests */ = {
+			isa = PBXGroup;
+			children = (
+				45F092C71DE96ADA00DFA108 /* TestError.swift */,
+				45F092CC1DE96ADA00DFA108 /* TestUtility.swift */,
+				OBJ_12 /* TestMerging.swift */,
+				45F092D91DE96C5400DFA108 /* TestTruncating.swift */,
+				45F092CB1DE96ADA00DFA108 /* testLog.swift */,
+			);
+			name = EonilMergeSortedUniqueElementsTests;
+			path = Tests/EonilMergeSortedUniqueElementsTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* EonilMergeSortedUniqueElements.framework */,
+				OBJ_15 /* EonilMergeSortedUniqueElementsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				45F092E51DE96D9E00DFA108 /* LICENSE */,
+				45F092E61DE96D9E00DFA108 /* README.md */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* EonilMergeSortedUniqueElements */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* EonilMergeSortedUniqueElements */ = {
+			isa = PBXGroup;
+			children = (
+				45F092BB1DE96ACA00DFA108 /* makeLastDroppingMutations.swift */,
+				45F092BC1DE96ACA00DFA108 /* makeMergeMutations.swift */,
+				45F092BD1DE96ACA00DFA108 /* ArrayMutation.swift */,
+				45F092BE1DE96ACA00DFA108 /* IteratorProtocol+eonil.swift */,
+				45F092BF1DE96ACA00DFA108 /* assertElementUniqueness.swift */,
+				45F092C01DE96ACA00DFA108 /* assertSorted.swift */,
+			);
+			name = EonilMergeSortedUniqueElements;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_16 /* EonilMergeSortedUniqueElements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements" */;
+			buildPhases = (
+				OBJ_20 /* Sources */,
+				OBJ_22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EonilMergeSortedUniqueElements;
+			productName = EonilMergeSortedUniqueElements;
+			productReference = OBJ_14 /* EonilMergeSortedUniqueElements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_23 /* EonilMergeSortedUniqueElementsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_24 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElementsTests" */;
+			buildPhases = (
+				OBJ_27 /* Sources */,
+				OBJ_29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_31 /* PBXTargetDependency */,
+			);
+			name = EonilMergeSortedUniqueElementsTests;
+			productName = EonilMergeSortedUniqueElementsTests;
+			productReference = OBJ_15 /* EonilMergeSortedUniqueElementsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_16 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "EonilMergeSortedUniqueElements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_16 /* EonilMergeSortedUniqueElements */,
+				OBJ_23 /* EonilMergeSortedUniqueElementsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				45F092C51DE96ACA00DFA108 /* assertElementUniqueness.swift in Sources */,
+				45F092C31DE96ACA00DFA108 /* ArrayMutation.swift in Sources */,
+				45F092C61DE96ACA00DFA108 /* assertSorted.swift in Sources */,
+				45F092C41DE96ACA00DFA108 /* IteratorProtocol+eonil.swift in Sources */,
+				45F092C11DE96ACA00DFA108 /* makeLastDroppingMutations.swift in Sources */,
+				45F092C21DE96ACA00DFA108 /* makeMergeMutations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				45F092E11DE96D0200DFA108 /* TestUtility.swift in Sources */,
+				45F092E41DE96D0200DFA108 /* testLog.swift in Sources */,
+				45F092E01DE96D0200DFA108 /* TestError.swift in Sources */,
+				45F092E31DE96D0200DFA108 /* TestTruncating.swift in Sources */,
+				45F092E21DE96D0200DFA108 /* TestMerging.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_16 /* EonilMergeSortedUniqueElements */;
+			targetProxy = 45F092BA1DE96A9000DFA108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EonilMergeSortedUniqueElements.xcodeproj/EonilMergeSortedUniqueElements_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EonilMergeSortedUniqueElements;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = EonilMergeSortedUniqueElements;
+			};
+			name = Debug;
+		};
+		OBJ_19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EonilMergeSortedUniqueElements.xcodeproj/EonilMergeSortedUniqueElements_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EonilMergeSortedUniqueElements;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = EonilMergeSortedUniqueElements;
+			};
+			name = Release;
+		};
+		OBJ_25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EonilMergeSortedUniqueElements.xcodeproj/EonilMergeSortedUniqueElementsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = EonilMergeSortedUniqueElementsTests;
+			};
+			name = Debug;
+		};
+		OBJ_26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EonilMergeSortedUniqueElements.xcodeproj/EonilMergeSortedUniqueElementsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = EonilMergeSortedUniqueElementsTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_17 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_18 /* Debug */,
+				OBJ_19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "EonilMergeSortedUniqueElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_24 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElementsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_25 /* Debug */,
+				OBJ_26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
