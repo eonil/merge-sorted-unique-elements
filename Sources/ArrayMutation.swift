@@ -18,6 +18,33 @@ public enum ArrayMutation<T> {
     case update(range: CountableRange<Array<T>.Index>, elements: [T])
     case delete(range: CountableRange<Array<T>.Index>, elements: [T])
 }
+
+public extension ArrayMutation {
+    public func eonil_map<U>(_ f: (CountableRange<Array<T>.Index>, [T]) -> (CountableRange<Array<T>.Index>, [U])) -> ArrayMutation<U> {
+        switch self {
+        case .insert(let range, let elements):
+            let (range1, elements1) = f(range, elements)
+            return .insert(range: range1, elements: elements1)
+        case .update(let range, let elements):
+            let (range1, elements1) = f(range, elements)
+            return .update(range: range1, elements: elements1)
+        case .delete(let range, let elements):
+            let (range1, elements1) = f(range, elements)
+            return .delete(range: range1, elements: elements1)
+        }
+    }
+    public func eonil_map<U>(_ f: (Array<T>.Index, T) -> (U)) -> ArrayMutation<U> {
+        switch self {
+        case .insert(let range, let elements):
+            return .insert(range: range, elements: Array(zip(range, elements).map(f)))
+        case .update(let range, let elements):
+            return .update(range: range, elements: Array(zip(range, elements).map(f)))
+        case .delete(let range, let elements):
+            return .delete(range: range, elements: Array(zip(range, elements).map(f)))
+        }
+    }
+}
+
 ///
 /// - Note:
 ///     Cannot conform `Equatable` due to lack of conditional protocol conformance...
@@ -32,3 +59,4 @@ extension ArrayMutation where T: Equatable {
         }
     }
 }
+

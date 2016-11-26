@@ -18,6 +18,22 @@
 		45F092E21DE96D0200DFA108 /* TestMerging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* TestMerging.swift */; };
 		45F092E31DE96D0200DFA108 /* TestTruncating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092D91DE96C5400DFA108 /* TestTruncating.swift */; };
 		45F092E41DE96D0200DFA108 /* testLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092CB1DE96ADA00DFA108 /* testLog.swift */; };
+		45F092EE1DE9700200DFA108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092ED1DE9700200DFA108 /* AppDelegate.swift */; };
+		45F092F51DE9700200DFA108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F092F41DE9700200DFA108 /* Assets.xcassets */; };
+		45F092F81DE9700200DFA108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F092F61DE9700200DFA108 /* LaunchScreen.storyboard */; };
+		45F0930B1DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F093091DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F0930E1DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F093071DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework */; };
+		45F0930F1DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45F093071DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45F093141DE970F400DFA108 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F093131DE970F400DFA108 /* View.swift */; };
+		45F093181DE9711200DFA108 /* TestdriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F093171DE9711200DFA108 /* TestdriveViewController.swift */; };
+		45F0931B1DE9737C00DFA108 /* makeLastDroppingMutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BB1DE96ACA00DFA108 /* makeLastDroppingMutations.swift */; };
+		45F0931C1DE9737C00DFA108 /* makeMergeMutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BC1DE96ACA00DFA108 /* makeMergeMutations.swift */; };
+		45F0931D1DE9737C00DFA108 /* ArrayMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BD1DE96ACA00DFA108 /* ArrayMutation.swift */; };
+		45F0931E1DE9737C00DFA108 /* IteratorProtocol+eonil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BE1DE96ACA00DFA108 /* IteratorProtocol+eonil.swift */; };
+		45F0931F1DE9737C00DFA108 /* assertElementUniqueness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092BF1DE96ACA00DFA108 /* assertElementUniqueness.swift */; };
+		45F093201DE9737C00DFA108 /* assertSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F092C01DE96ACA00DFA108 /* assertSorted.swift */; };
+		45F093231DE9854800DFA108 /* Array+ArrayMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F093211DE9852300DFA108 /* Array+ArrayMutation.swift */; };
+		45F093241DE9854800DFA108 /* Array+ArrayMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F093211DE9852300DFA108 /* Array+ArrayMutation.swift */; };
 		OBJ_30 /* EonilMergeSortedUniqueElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* EonilMergeSortedUniqueElements.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +45,28 @@
 			remoteGlobalIDString = OBJ_16;
 			remoteInfo = EonilMergeSortedUniqueElements;
 		};
+		45F0930C1DE9703700DFA108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F093061DE9703700DFA108;
+			remoteInfo = "EonilMergeSortedUniqueElements-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45F093011DE9701800DFA108 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				45F0930F1DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45F092BB1DE96ACA00DFA108 /* makeLastDroppingMutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeLastDroppingMutations.swift; sourceTree = "<group>"; };
@@ -44,6 +81,17 @@
 		45F092D91DE96C5400DFA108 /* TestTruncating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTruncating.swift; sourceTree = "<group>"; };
 		45F092E51DE96D9E00DFA108 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		45F092E61DE96D9E00DFA108 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45F092EB1DE9700100DFA108 /* EonilMSUETestdrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EonilMSUETestdrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F092ED1DE9700200DFA108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F092F41DE9700200DFA108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F092F71DE9700200DFA108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F092F91DE9700200DFA108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F093071DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilMergeSortedUniqueElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F093091DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EonilMergeSortedUniqueElements-iOS.h"; sourceTree = "<group>"; };
+		45F0930A1DE9703700DFA108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F093131DE970F400DFA108 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		45F093171DE9711200DFA108 /* TestdriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestdriveViewController.swift; sourceTree = "<group>"; };
+		45F093211DE9852300DFA108 /* Array+ArrayMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ArrayMutation.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* TestMerging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMerging.swift; sourceTree = "<group>"; };
 		OBJ_14 /* EonilMergeSortedUniqueElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EonilMergeSortedUniqueElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* EonilMergeSortedUniqueElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = EonilMergeSortedUniqueElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +99,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		45F092E81DE9700100DFA108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0930E1DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F093031DE9703700DFA108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -69,6 +132,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45F092EC1DE9700200DFA108 /* EonilMSUETestdrive */ = {
+			isa = PBXGroup;
+			children = (
+				45F092ED1DE9700200DFA108 /* AppDelegate.swift */,
+				45F093131DE970F400DFA108 /* View.swift */,
+				45F093171DE9711200DFA108 /* TestdriveViewController.swift */,
+				45F092F41DE9700200DFA108 /* Assets.xcassets */,
+				45F092F61DE9700200DFA108 /* LaunchScreen.storyboard */,
+				45F092F91DE9700200DFA108 /* Info.plist */,
+			);
+			path = EonilMSUETestdrive;
+			sourceTree = "<group>";
+		};
+		45F093081DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F093091DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS.h */,
+				45F0930A1DE9703700DFA108 /* Info.plist */,
+			);
+			path = "EonilMergeSortedUniqueElements-iOS";
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +180,8 @@
 			children = (
 				OBJ_14 /* EonilMergeSortedUniqueElements.framework */,
 				OBJ_15 /* EonilMergeSortedUniqueElementsTests.xctest */,
+				45F092EB1DE9700100DFA108 /* EonilMSUETestdrive.app */,
+				45F093071DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -107,6 +194,8 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
+				45F092EC1DE9700200DFA108 /* EonilMSUETestdrive */,
+				45F093081DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS */,
 				OBJ_13 /* Products */,
 			);
 			name = "";
@@ -129,6 +218,7 @@
 				45F092BE1DE96ACA00DFA108 /* IteratorProtocol+eonil.swift */,
 				45F092BF1DE96ACA00DFA108 /* assertElementUniqueness.swift */,
 				45F092C01DE96ACA00DFA108 /* assertSorted.swift */,
+				45F093211DE9852300DFA108 /* Array+ArrayMutation.swift */,
 			);
 			name = EonilMergeSortedUniqueElements;
 			path = Sources;
@@ -136,7 +226,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		45F093041DE9703700DFA108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0930B1DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		45F092EA1DE9700100DFA108 /* EonilMSUETestdrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F092FA1DE9700200DFA108 /* Build configuration list for PBXNativeTarget "EonilMSUETestdrive" */;
+			buildPhases = (
+				45F092E71DE9700100DFA108 /* Sources */,
+				45F092E81DE9700100DFA108 /* Frameworks */,
+				45F092E91DE9700100DFA108 /* Resources */,
+				45F093011DE9701800DFA108 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F0930D1DE9703700DFA108 /* PBXTargetDependency */,
+			);
+			name = EonilMSUETestdrive;
+			productName = EonilMSUETestdrive;
+			productReference = 45F092EB1DE9700100DFA108 /* EonilMSUETestdrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45F093061DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F093101DE9703700DFA108 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements-iOS" */;
+			buildPhases = (
+				45F093021DE9703700DFA108 /* Sources */,
+				45F093031DE9703700DFA108 /* Frameworks */,
+				45F093041DE9703700DFA108 /* Headers */,
+				45F093051DE9703700DFA108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EonilMergeSortedUniqueElements-iOS";
+			productName = "EonilMergeSortedUniqueElements-iOS";
+			productReference = 45F093071DE9703700DFA108 /* EonilMergeSortedUniqueElements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		OBJ_16 /* EonilMergeSortedUniqueElements */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements" */;
@@ -176,9 +314,21 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
+					45F092EA1DE9700100DFA108 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SYA75M63MP;
+						ProvisioningStyle = Manual;
+					};
+					45F093061DE9703700DFA108 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SYA75M63MP;
+						ProvisioningStyle = Automatic;
+					};
 					OBJ_16 = {
+						DevelopmentTeam = SYA75M63MP;
 						LastSwiftMigration = 0810;
 					};
 				};
@@ -189,6 +339,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_13 /* Products */;
@@ -197,16 +348,62 @@
 			targets = (
 				OBJ_16 /* EonilMergeSortedUniqueElements */,
 				OBJ_23 /* EonilMergeSortedUniqueElementsTests */,
+				45F093061DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS */,
+				45F092EA1DE9700100DFA108 /* EonilMSUETestdrive */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		45F092E91DE9700100DFA108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F092F81DE9700200DFA108 /* LaunchScreen.storyboard in Resources */,
+				45F092F51DE9700200DFA108 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F093051DE9703700DFA108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		45F092E71DE9700100DFA108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F092EE1DE9700200DFA108 /* AppDelegate.swift in Sources */,
+				45F093181DE9711200DFA108 /* TestdriveViewController.swift in Sources */,
+				45F093141DE970F400DFA108 /* View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F093021DE9703700DFA108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0931F1DE9737C00DFA108 /* assertElementUniqueness.swift in Sources */,
+				45F093241DE9854800DFA108 /* Array+ArrayMutation.swift in Sources */,
+				45F0931D1DE9737C00DFA108 /* ArrayMutation.swift in Sources */,
+				45F093201DE9737C00DFA108 /* assertSorted.swift in Sources */,
+				45F0931E1DE9737C00DFA108 /* IteratorProtocol+eonil.swift in Sources */,
+				45F0931B1DE9737C00DFA108 /* makeLastDroppingMutations.swift in Sources */,
+				45F0931C1DE9737C00DFA108 /* makeMergeMutations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
 				45F092C51DE96ACA00DFA108 /* assertElementUniqueness.swift in Sources */,
+				45F093231DE9854800DFA108 /* Array+ArrayMutation.swift in Sources */,
 				45F092C31DE96ACA00DFA108 /* ArrayMutation.swift in Sources */,
 				45F092C61DE96ACA00DFA108 /* assertSorted.swift in Sources */,
 				45F092C41DE96ACA00DFA108 /* IteratorProtocol+eonil.swift in Sources */,
@@ -230,6 +427,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		45F0930D1DE9703700DFA108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F093061DE9703700DFA108 /* EonilMergeSortedUniqueElements-iOS */;
+			targetProxy = 45F0930C1DE9703700DFA108 /* PBXContainerItemProxy */;
+		};
 		OBJ_31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_16 /* EonilMergeSortedUniqueElements */;
@@ -237,12 +439,250 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		45F092F61DE9700200DFA108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F092F71DE9700200DFA108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		45F092FB1DE9700200DFA108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = EonilMSUETestdrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.EonilMSUETestdrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "189f6314-f13d-41e4-9c27-c421dd7ec526";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F092FC1DE9700200DFA108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = EonilMSUETestdrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.EonilMSUETestdrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "189f6314-f13d-41e4-9c27-c421dd7ec526";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F093111DE9703700DFA108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EonilMergeSortedUniqueElements-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.EonilMergeSortedUniqueElements-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45F093121DE9703700DFA108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "EonilMergeSortedUniqueElements-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eonil.EonilMergeSortedUniqueElements-iOS";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		OBJ_18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = "";
@@ -266,6 +706,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = "";
@@ -358,6 +799,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45F092FA1DE9700200DFA108 /* Build configuration list for PBXNativeTarget "EonilMSUETestdrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F092FB1DE9700200DFA108 /* Debug */,
+				45F092FC1DE9700200DFA108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45F093101DE9703700DFA108 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F093111DE9703700DFA108 /* Debug */,
+				45F093121DE9703700DFA108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		OBJ_17 /* Build configuration list for PBXNativeTarget "EonilMergeSortedUniqueElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
