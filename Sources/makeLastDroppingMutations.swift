@@ -13,7 +13,7 @@
 ///
 /// O(n + m). (excluding misc. like array alloc/dealloc)
 ///
-func makeTruncateLastMutations<C: RandomAccessCollection>(
+public func makeTruncateLastMutations<C: RandomAccessCollection>(
     source: C,
     addition: C,
     maxCount: Int)

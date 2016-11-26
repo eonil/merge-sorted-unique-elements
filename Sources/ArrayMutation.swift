@@ -13,7 +13,7 @@
 ///     Intentionally passes collection parameters to increase
 ///     efficiency by batching mutations on dense range.
 ///
-enum ArrayMutation<T> {
+public enum ArrayMutation<T> {
     case insert(range: CountableRange<Array<T>.Index>, elements: [T])
     case update(range: CountableRange<Array<T>.Index>, elements: [T])
     case delete(range: CountableRange<Array<T>.Index>, elements: [T])

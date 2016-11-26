@@ -19,7 +19,7 @@
 ///     Mutations are sorted in descending order by index to be valid
 ///     even on imerative execution.
 ///
-func makeMergeMutations<T: Comparable>(source: [T], addition: [T], decideUpdate: (T) -> (Bool) = { _ in true }) -> [ArrayMutation<T>] {
+public func makeMergeMutations<T: Comparable>(source: [T], addition: [T], decideUpdate: (T) -> (Bool) = { _ in true }) -> [ArrayMutation<T>] {
     assertElementUniqueness(source)
     assertElementUniqueness(addition)
     assertSorted(source)

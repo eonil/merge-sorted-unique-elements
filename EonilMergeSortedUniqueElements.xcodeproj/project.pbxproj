@@ -102,8 +102,8 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				45F092E51DE96D9E00DFA108 /* LICENSE */,
 				45F092E61DE96D9E00DFA108 /* README.md */,
+				45F092E51DE96D9E00DFA108 /* LICENSE */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
