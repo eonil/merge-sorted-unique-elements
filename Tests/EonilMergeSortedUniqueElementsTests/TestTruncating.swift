@@ -87,17 +87,17 @@ private extension Array {
     func makeInsert(index: Int) -> ArrayMutation<Element> {
         let r = index..<(index + 1)
         let es = Array(self[r])
-        return .insert(range: r, elements: es)
+        return .insert(r, es)
     }
     func makeUpdate(index: Int) -> ArrayMutation<Element> {
         let r = index..<(index + 1)
         let es = Array(self[r])
-        return .update(range: r, elements: es)
+        return .update(r, es)
     }
     func makeDelete(index: Int) -> ArrayMutation<Element> {
         let r = index..<(index + 1)
         let es = Array(self[r])
-        return .delete(range: r, elements: es)
+        return .delete(r, es)
     }
 }
 

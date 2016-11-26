@@ -47,9 +47,9 @@ class TestMerging: XCTestCase {
 
 private extension Array {
     func makeInsert(at index: Int, value: Element) -> ArrayMutation<Element> {
-        return .insert(range: index..<(index + 1), elements: [value])
+        return .insert(index..<(index + 1), [value])
     }
     func makeUpdate(at index: Int, value: Element) -> ArrayMutation<Element> {
-        return .update(range: index..<(index + 1), elements: [value])
+        return .update(index..<(index + 1), [value])
     }
 }

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4A75021C683625BB5A039722F1A8FE3E4A82CB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4A75021C683625BB5A039722F1A8FE3E4A82CB2" : 9223372036854775807,
+    "30E1A3BB87D5DA0EA713A18BB782CD368BC842D1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "524AF857-B18E-4894-AADF-3F03394D06F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4A75021C683625BB5A039722F1A8FE3E4A82CB2" : "merge-sorted-unique-elements\/",
+    "30E1A3BB87D5DA0EA713A18BB782CD368BC842D1" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EonilMergeSortedUniqueElements",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EonilMergeSortedUniqueElements.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eonil\/stargazer-ios-client",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30E1A3BB87D5DA0EA713A18BB782CD368BC842D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eonil\/merge-sorted-unique-elements",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4A75021C683625BB5A039722F1A8FE3E4A82CB2"
+    }
+  ]
+}
