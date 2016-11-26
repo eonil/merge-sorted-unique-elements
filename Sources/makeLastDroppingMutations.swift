@@ -91,7 +91,7 @@ public func makeTruncateLastMutations<C: RandomAccessCollection>(
         let i = source.startIndex + d1
         let r = CountableRange(i..<(i + 1))
         let es = Array(source[r])
-        let m = ArrayMutation.delete(range: r, elements: es)
+        let m = ArrayMutation.delete(r, es)
         ms1.append(m)
     }
     /// O(1) if array has slack on capacity.
@@ -99,7 +99,7 @@ public func makeTruncateLastMutations<C: RandomAccessCollection>(
         let i = source.startIndex + d2
         let r = CountableRange(i..<(i + 1))
         let es = Array(addition[r])
-        let m = ArrayMutation.delete(range: r, elements: es)
+        let m = ArrayMutation.delete(r, es)
         ms2.append(m)
     }
     /// O(1) if array has slack on capacity.

@@ -82,7 +82,7 @@ public func makeMergeMutations<C, T>(
                     let i2 = addition.index(addition.startIndex, offsetBy: n2.offset)
                     let r2 = i2..<(i2 + 1)
                     let vs = replaceAdditionValues(r2) ///< Take care that *update* means new values from `additions`. 
-                    let m = ArrayMutation.update(range: r1, elements: vs)
+                    let m = ArrayMutation.update(r1, vs)
                     ms.append(m)
                 }
                 g1.eonil_skip()
@@ -104,7 +104,7 @@ public func makeMergeMutations<C, T>(
                     let i2 = addition.index(addition.startIndex, offsetBy: n2.offset)
                     let r2 = i2..<(addition.index(after: i2))
                     let vs = replaceAdditionValues(r2)
-                    let m = ArrayMutation.insert(range: r1, elements: vs)
+                    let m = ArrayMutation.insert(r1, vs)
                     ms.append(m)
                     g2.eonil_skip()
                     return
@@ -127,7 +127,7 @@ public func makeMergeMutations<C, T>(
             let vs = replaceAdditionValues(r2)
             let i1 = source.startIndex
             let r1 = i1..<(source.index(i1, offsetBy: r2.count))
-            let m = ArrayMutation.insert(range: r1, elements: vs)
+            let m = ArrayMutation.insert(r1, vs)
             ms.append(m)
             canContinue = false
             return

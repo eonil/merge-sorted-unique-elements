@@ -14,9 +14,9 @@
 ///     efficiency by batching mutations on dense range.
 ///
 public enum ArrayMutation<T> {
-    case insert(range: CountableRange<Array<T>.Index>, elements: [T])
-    case update(range: CountableRange<Array<T>.Index>, elements: [T])
-    case delete(range: CountableRange<Array<T>.Index>, elements: [T])
+    case insert(CountableRange<Array<T>.Index>, [T])
+    case update(CountableRange<Array<T>.Index>, [T])
+    case delete(CountableRange<Array<T>.Index>, [T])
 }
 
 public extension ArrayMutation {
@@ -24,23 +24,23 @@ public extension ArrayMutation {
         switch self {
         case .insert(let range, let elements):
             let (range1, elements1) = f(range, elements)
-            return .insert(range: range1, elements: elements1)
+            return .insert(range1, elements1)
         case .update(let range, let elements):
             let (range1, elements1) = f(range, elements)
-            return .update(range: range1, elements: elements1)
+            return .update(range1, elements1)
         case .delete(let range, let elements):
             let (range1, elements1) = f(range, elements)
-            return .delete(range: range1, elements: elements1)
+            return .delete(range1, elements1)
         }
     }
     public func eonil_map<U>(_ f: (Array<T>.Index, T) -> (U)) -> ArrayMutation<U> {
         switch self {
         case .insert(let range, let elements):
-            return .insert(range: range, elements: Array(zip(range, elements).map(f)))
+            return .insert(range, Array(zip(range, elements).map(f)))
         case .update(let range, let elements):
-            return .update(range: range, elements: Array(zip(range, elements).map(f)))
+            return .update(range, Array(zip(range, elements).map(f)))
         case .delete(let range, let elements):
-            return .delete(range: range, elements: Array(zip(range, elements).map(f)))
+            return .delete(range, Array(zip(range, elements).map(f)))
         }
     }
 }
